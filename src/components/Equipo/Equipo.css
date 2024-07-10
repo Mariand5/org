@@ -1,0 +1,29 @@
+.equipo{
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;/*Evita que haya que desplazarse a traves de la pantalla marcando el ancho maximo como el 100% disponible sin que se desborde*/
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block; /*Solo ocupa el espacio necesario, no todo el ancho disponible*/
+    padding-bottom: 8px;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
